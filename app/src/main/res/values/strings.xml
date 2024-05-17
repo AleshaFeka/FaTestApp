@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FanaticsTestApp</string>
+    <string name="people">People</string>
+    <string name="here" formatted="false">here</string>
+    <string name="click">Click\ </string>
+    <string name="to_view_homeworld">\ to view homeworld data for %1$s</string>
+    <string name="click_here_to_view_homeworld">Click here to view homeworld data for %1$s</string>
+    <string name="homeworld">Homeworld: %1$s</string>
+    <string name="population">Population: %1$s</string>
+</resources>

@@ -1,0 +1,30 @@
+
+query GetPeopleQuery {
+  allPeople{
+    people {
+      id
+      name
+      height
+      mass
+      homeworld {
+        name
+        population
+        gravity
+      }
+    }
+  }
+}
+
+query GetPersonQuery($id: ID!) {
+  person(id: $id) {
+    id
+    name
+    height
+    mass
+    homeworld {
+      name
+      population
+      gravity
+    }
+  }
+}
